@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.overlay} />
 
       <header className={styles.header}>
-        <a href="mailto:tim@uai.tech" className={styles.contactLink}>
+        <a href="mailto:info@uspaces.com" className={styles.contactLink}>
           Contact
         </a>
       </header>
