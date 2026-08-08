@@ -1,7 +1,7 @@
 {
-  "name": "uai-website",
+  "name": "universe-by-uai",
   "version": "1.0.0",
-  "description": "UAI - Turning Physical Spaces Intelligent",
+  "description": "A Spatial AI revolutionizing sports production.",
   "private": true,
   "scripts": {
     "dev": "next dev",
