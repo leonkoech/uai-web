@@ -59,25 +59,70 @@
   animation: fadeIn 1s ease-out;
 }
 
-.logo {
+.logoLockup {
   width: auto;
   height: auto;
-  max-width: 220px;
-  max-height: 220px;
+  max-width: 460px;
+  max-height: 202px;
   object-fit: contain;
 }
 
 .tagline {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(28px, 6vw, 64px);
+  font-size: clamp(18px, 3.2vw, 34px);
   color: #ffffff;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: 400;
   line-height: 1.2;
 }
 
 .highlight {
   color: #e63946;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+}
+
+.featureRow {
+  display: flex;
+  width: 100%;
+}
+
+.featureVideoWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.featureVideo {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #111111;
+}
+
+.videoOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.featureCaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  z-index: 2;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(20px, 3vw, 32px);
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 20px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 @keyframes fadeIn {
@@ -103,9 +148,9 @@
     border-radius: 5px;
   }
 
-  .logo {
-    max-width: 140px;
-    max-height: 140px;
+  .logoLockup {
+    max-width: 300px;
+    max-height: 132px;
   }
 
   .tagline {
@@ -125,9 +170,9 @@
     letter-spacing: 0.5px;
   }
 
-  .logo {
-    max-width: 110px;
-    max-height: 110px;
+  .logoLockup {
+    max-width: 230px;
+    max-height: 101px;
   }
 
   .tagline {
